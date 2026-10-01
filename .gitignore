@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+
+# Local run logs (progress and error streams, not part of the release)
+logs_*.txt
+*_err.txt
+results/analyze_log.txt
+
+# Scratch scripts that are not needed to reproduce the paper
+peek.py
+save_judge.py
+
+# Manuscript is submitted separately as the camera-ready PDF
+paper/
+submission.pdf
+supplementary.zip
+
+# SciFact download and splits that this study does not use
+data/scifact.tar.gz
+data/._*
+data/data/._*
+data/data/claims_train.jsonl
+data/data/claims_test.jsonl
+data/data/cross_validation/

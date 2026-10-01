@@ -1,0 +1,62 @@
+{
+  "gemini-3.1-flash-lite closed_vs_single": {
+    "a_only": 28,
+    "b_only": 26,
+    "p": 0.8919
+  },
+  "gemini-3.1-flash-lite closed_vs_agent": {
+    "a_only": 6,
+    "b_only": 13,
+    "p": 0.1671
+  },
+  "gemini-3.1-flash-lite closed_vs_oracle": {
+    "a_only": 3,
+    "b_only": 34,
+    "p": 0.0
+  },
+  "gemini-3.1-flash-lite single_vs_agent": {
+    "a_only": 15,
+    "b_only": 24,
+    "p": 0.1996
+  },
+  "gemini-3.1-flash-lite single_vs_oracle": {
+    "a_only": 5,
+    "b_only": 38,
+    "p": 0.0
+  },
+  "gemini-3.1-flash-lite agent_vs_oracle": {
+    "a_only": 5,
+    "b_only": 29,
+    "p": 0.0
+  },
+  "gemini-3.5-flash-lite closed_vs_single": {
+    "a_only": 34,
+    "b_only": 24,
+    "p": 0.237
+  },
+  "gemini-3.5-flash-lite closed_vs_agent": {
+    "a_only": 8,
+    "b_only": 11,
+    "p": 0.6476
+  },
+  "gemini-3.5-flash-lite closed_vs_oracle": {
+    "a_only": 10,
+    "b_only": 30,
+    "p": 0.0022
+  },
+  "gemini-3.5-flash-lite single_vs_agent": {
+    "a_only": 16,
+    "b_only": 29,
+    "p": 0.0725
+  },
+  "gemini-3.5-flash-lite single_vs_oracle": {
+    "a_only": 5,
+    "b_only": 35,
+    "p": 0.0
+  },
+  "gemini-3.5-flash-lite agent_vs_oracle": {
+    "a_only": 9,
+    "b_only": 26,
+    "p": 0.006
+  }
+}

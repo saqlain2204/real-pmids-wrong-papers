@@ -1,0 +1,296 @@
+{
+  "gemini-3.1-flash-lite": {
+    "n": 100,
+    "n_oracle": 100,
+    "oracle_subset": {
+      "agent": {
+        "acc": 0.62,
+        "f1": 0.6025562994522216
+      },
+      "closed": {
+        "acc": 0.55,
+        "f1": 0.46497695852534565
+      },
+      "oracle": {
+        "acc": 0.86,
+        "f1": 0.8579720445392086
+      },
+      "single": {
+        "acc": 0.53,
+        "f1": 0.52531328320802
+      }
+    },
+    "agent": {
+      "acc": 0.62,
+      "acc_ci": [
+        0.52,
+        0.71
+      ],
+      "f1": 0.6025562994522216,
+      "f1_ci": [
+        0.4977620130263416,
+        0.6937523700584313
+      ],
+      "pred_dist": {
+        "SUPPORT": 52,
+        "NEI": 17,
+        "CONTRADICT": 31
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.7804878048780488,
+        "CONTRADICT": 0.782608695652174,
+        "NEI": 0.3333333333333333
+      },
+      "gold_recall": 0.1875,
+      "avg_searches": 1.42,
+      "avg_retrieved": 3.96,
+      "zero_hit_rate": 0.09,
+      "unfaithful_cite_rate": 0.0,
+      "n_with_citations": 87,
+      "acc_ev_gold_hit": 0.9166666666666666,
+      "n_ev_gold_hit": 12,
+      "acc_ev_gold_miss": 0.75,
+      "n_ev_gold_miss": 52
+    },
+    "closed": {
+      "acc": 0.55,
+      "acc_ci": [
+        0.45,
+        0.64
+      ],
+      "f1": 0.46497695852534565,
+      "f1_ci": [
+        0.379110933761091,
+        0.5468262018688135
+      ],
+      "pred_dist": {
+        "SUPPORT": 57,
+        "NEI": 4,
+        "CONTRADICT": 39
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.8536585365853658,
+        "CONTRADICT": 0.782608695652174,
+        "NEI": 0.05555555555555555
+      },
+      "n_with_citations": 97,
+      "cite_nonexistent_rate": 0.041237113402061855,
+      "cite_gold_rate": 0.0,
+      "n_cited_pmids": 190,
+      "n_cited_pmids_exist": 186
+    },
+    "oracle": {
+      "acc": 0.86,
+      "acc_ci": [
+        0.79,
+        0.92
+      ],
+      "f1": 0.8579720445392086,
+      "f1_ci": [
+        0.7799366855985569,
+        0.9206025584578907
+      ],
+      "pred_dist": {
+        "NEI": 31,
+        "SUPPORT": 43,
+        "CONTRADICT": 26
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.9024390243902439,
+        "CONTRADICT": 0.9130434782608695,
+        "NEI": 0.7777777777777778
+      }
+    },
+    "single": {
+      "acc": 0.53,
+      "acc_ci": [
+        0.44,
+        0.63
+      ],
+      "f1": 0.52531328320802,
+      "f1_ci": [
+        0.41200740727846047,
+        0.6236292175291925
+      ],
+      "pred_dist": {
+        "NEI": 59,
+        "SUPPORT": 29,
+        "CONTRADICT": 12
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.43902439024390244,
+        "CONTRADICT": 0.391304347826087,
+        "NEI": 0.7222222222222222
+      },
+      "gold_recall": 0.0625,
+      "avg_searches": 1.0,
+      "avg_retrieved": 4.4,
+      "zero_hit_rate": 0.0,
+      "unfaithful_cite_rate": 0.0,
+      "n_with_citations": 50,
+      "acc_ev_gold_hit": 1.0,
+      "n_ev_gold_hit": 4,
+      "acc_ev_gold_miss": 0.38333333333333336,
+      "n_ev_gold_miss": 60
+    },
+    "agent_vs_single": {
+      "a_only": 24,
+      "b_only": 15
+    },
+    "agent_vs_closed": {
+      "a_only": 13,
+      "b_only": 6
+    },
+    "single_vs_closed": {
+      "a_only": 26,
+      "b_only": 28
+    }
+  },
+  "gemini-3.5-flash-lite": {
+    "n": 100,
+    "n_oracle": 100,
+    "oracle_subset": {
+      "agent": {
+        "acc": 0.62,
+        "f1": 0.6110083256244218
+      },
+      "closed": {
+        "acc": 0.59,
+        "f1": 0.536389194475003
+      },
+      "oracle": {
+        "acc": 0.79,
+        "f1": 0.7862751640529417
+      },
+      "single": {
+        "acc": 0.49,
+        "f1": 0.4595703433195825
+      }
+    },
+    "agent": {
+      "acc": 0.62,
+      "acc_ci": [
+        0.52,
+        0.71
+      ],
+      "f1": 0.6110083256244218,
+      "f1_ci": [
+        0.5043685210453505,
+        0.7037207401663066
+      ],
+      "pred_dist": {
+        "SUPPORT": 53,
+        "NEI": 24,
+        "CONTRADICT": 23
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.7804878048780488,
+        "CONTRADICT": 0.6521739130434783,
+        "NEI": 0.4166666666666667
+      },
+      "gold_recall": 0.203125,
+      "avg_searches": 1.7,
+      "avg_retrieved": 4.8,
+      "zero_hit_rate": 0.03,
+      "unfaithful_cite_rate": 0.02564102564102564,
+      "n_with_citations": 78,
+      "acc_ev_gold_hit": 0.6923076923076923,
+      "n_ev_gold_hit": 13,
+      "acc_ev_gold_miss": 0.7450980392156863,
+      "n_ev_gold_miss": 51
+    },
+    "closed": {
+      "acc": 0.59,
+      "acc_ci": [
+        0.49,
+        0.69
+      ],
+      "f1": 0.536389194475003,
+      "f1_ci": [
+        0.43826057315140327,
+        0.6308058692732755
+      ],
+      "pred_dist": {
+        "SUPPORT": 60,
+        "NEI": 9,
+        "CONTRADICT": 31
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.8780487804878049,
+        "CONTRADICT": 0.7391304347826086,
+        "NEI": 0.16666666666666666
+      },
+      "n_with_citations": 80,
+      "cite_nonexistent_rate": 0.05,
+      "cite_gold_rate": 0.0,
+      "n_cited_pmids": 145,
+      "n_cited_pmids_exist": 141
+    },
+    "oracle": {
+      "acc": 0.79,
+      "acc_ci": [
+        0.71,
+        0.87
+      ],
+      "f1": 0.7862751640529417,
+      "f1_ci": [
+        0.6983274339536437,
+        0.8632555220981712
+      ],
+      "pred_dist": {
+        "NEI": 45,
+        "SUPPORT": 33,
+        "CONTRADICT": 22
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.7560975609756098,
+        "CONTRADICT": 0.7391304347826086,
+        "NEI": 0.8611111111111112
+      }
+    },
+    "single": {
+      "acc": 0.49,
+      "acc_ci": [
+        0.39,
+        0.59
+      ],
+      "f1": 0.4595703433195825,
+      "f1_ci": [
+        0.3475572212668809,
+        0.5657780538745361
+      ],
+      "pred_dist": {
+        "NEI": 70,
+        "SUPPORT": 22,
+        "CONTRADICT": 8
+      },
+      "per_label_acc": {
+        "SUPPORT": 0.34146341463414637,
+        "CONTRADICT": 0.2608695652173913,
+        "NEI": 0.8055555555555556
+      },
+      "gold_recall": 0.0625,
+      "avg_searches": 1.0,
+      "avg_retrieved": 4.4,
+      "zero_hit_rate": 0.0,
+      "unfaithful_cite_rate": 0.0,
+      "n_with_citations": 30,
+      "acc_ev_gold_hit": 1.0,
+      "n_ev_gold_hit": 4,
+      "acc_ev_gold_miss": 0.26666666666666666,
+      "n_ev_gold_miss": 60
+    },
+    "agent_vs_single": {
+      "a_only": 29,
+      "b_only": 16
+    },
+    "agent_vs_closed": {
+      "a_only": 11,
+      "b_only": 8
+    },
+    "single_vs_closed": {
+      "a_only": 24,
+      "b_only": 34
+    }
+  }
+}
