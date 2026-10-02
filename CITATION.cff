@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this code, please cite the paper.
+title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents"
+authors:
+  - family-names: Saqlain
+    given-names: Mohammed
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents"
+  authors:
+    - family-names: Saqlain
+      given-names: Mohammed
+  year: 2026
+  conference:
+    name: "Agentic AI for Biological Discovery (AgenticLS) workshop, NeurIPS 2026"

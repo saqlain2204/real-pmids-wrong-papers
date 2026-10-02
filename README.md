@@ -47,3 +47,14 @@ python judge_sanity.py
 ```
 
 `run_experiment.py` defaults to the paper protocol: both backbones, all four harnesses, and the first 100 claims after a shuffle with seed 0. PubMed is queried through NCBI E-utilities (`esearch` with `sort=relevance` and `retmax=5`, then `efetch`). Model calls use temperature 0 and JSON output.
+
+## Citation
+
+```bibtex
+@inproceedings{saqlain2026realpmids,
+  title     = {Real {PMIDs}, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents},
+  author    = {Saqlain, Mohammed},
+  booktitle = {Agentic AI for Biological Discovery (AgenticLS) workshop, NeurIPS},
+  year      = {2026}
+}
+```
