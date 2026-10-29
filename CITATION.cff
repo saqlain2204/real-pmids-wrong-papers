@@ -5,7 +5,7 @@ authors:
   - family-names: Saqlain
     given-names: Mohammed
 preferred-citation:
-  type: workshop-poster
+  type: conference-paper
   title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents"
   authors:
     - family-names: Saqlain
