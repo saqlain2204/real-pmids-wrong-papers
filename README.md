@@ -1,6 +1,6 @@
 # Real PMIDs, Wrong Papers
 
-Code, prompts, raw model outputs, and cached PubMed responses for the paper *Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents* ([arXiv:2610.29812](https://arxiv.org/abs/2610.29812); non-archival poster at AgenticLS workshop, NeurIPS 2026).
+Code, prompts, raw model outputs, and cached PubMed responses for the paper *Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents* ([arXiv:2610.29812](https://arxiv.org/abs/2610.29812); poster at AgenticLS workshop, NeurIPS 2026).
 
 The study compares four harnesses for biomedical claim verification on a fixed sample of 100 SciFact development claims: closed-book answering, single-shot PubMed retrieval, a ReAct-style agent that writes its own queries, and an oracle given the gold abstracts. Two backbones are used, `gemini-3.1-flash-lite` and `gemini-3.5-flash-lite`.
 
@@ -58,6 +58,6 @@ python judge_sanity.py
   year    = {2026},
   doi     = {10.48550/arXiv.2610.29812},
   url     = {https://arxiv.org/abs/2610.29812},
-  note    = {Non-archival poster at Agentic AI for Biological Discovery (AgenticLS) workshop, NeurIPS 2026}
+  note    = {Poster at Agentic AI for Biological Discovery (AgenticLS) workshop, NeurIPS 2026}
 }
 ```
