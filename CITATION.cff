@@ -6,7 +6,7 @@ authors:
     given-names: Mohammed
 year: 2026
 preferred-citation:
-  type: conference-paper
+  type: workshop-poster
   title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents"
   authors:
     - family-names: Saqlain
