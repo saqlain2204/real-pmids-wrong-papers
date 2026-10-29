@@ -4,7 +4,6 @@ title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verificati
 authors:
   - family-names: Saqlain
     given-names: Mohammed
-year: 2026
 preferred-citation:
   type: workshop-poster
   title: "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents"
@@ -14,3 +13,4 @@ preferred-citation:
   year: 2026
   conference:
     name: "Agentic AI for Biological Discovery (AgenticLS) workshop, NeurIPS 2026"
+  notes: "Accepted as a poster"
